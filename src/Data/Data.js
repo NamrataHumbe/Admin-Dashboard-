@@ -5,12 +5,10 @@ import {
   UilUsersAlt,
   UilPackage,
   UilChart,
-  UilSignOutAlt,
 } from "@iconscout/react-unicons";
 
 // Analytics Cards imports
 import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
 // Recent Card Imports
 import img1 from "../imgs/img1.png";
@@ -98,19 +96,37 @@ export const cardsData = [
 export const UpdatesData = [
   {
     img: img1,
-    name: "Andrew Thomas",
+    name: "Priyanka Jinturkar",
     noti: "has ordered Apple smart watch 2500mh battery.",
     time: "25 seconds ago",
   },
   {
     img: img2,
-    name: "James Bond",
+    name: "Shradhha Waware",
     noti: "has received Samsung gadget for charging battery.",
     time: "30 minutes ago",
   },
   {
     img: img3,
-    name: "Iron Man",
+    name: "Dipak Bhosale",
+    noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    time: "2 hours ago",
+  },
+  {
+    img: img1,
+    name: "Navoday Vidya",
+    noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    time: "2 hours ago",
+  },
+  {
+    img: img2,
+    name: "Rutuja Shere",
+    noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    time: "2 hours ago",
+  },
+  {
+    img: img3,
+    name: "Ghanshyam Sundar",
     noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
     time: "2 hours ago",
   },

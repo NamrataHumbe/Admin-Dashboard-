@@ -5,7 +5,19 @@
 .MuiTableRow-root.MuiTableRow-head > * {
   font-weight: bold !important;
 }
+.Table {
+  margin: 20px;
+}
 
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.Details {
+  cursor: pointer;
+  color: blue;
+}
 .Table td,
 th {
   border: none !important;

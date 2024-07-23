@@ -1,6 +1,8 @@
 
 .Updates{
     width: 85%;
+    height: 410px;
+    overflow-y: auto;
     background: white;
     border-radius: 0.7rem;
     padding: 1rem;
